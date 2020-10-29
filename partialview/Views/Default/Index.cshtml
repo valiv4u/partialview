@@ -1,0 +1,21 @@
+﻿@model partialview.Models.empdept
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>EMP DETAILS</h2>
+
+@Html.Partial("_emppartialView", Model);
+
+<h1>DEPT DETAILS</h1>
+
+@Html.Partial("_deptpartialView", Model);
+
+
+
+
+
+
+
+
